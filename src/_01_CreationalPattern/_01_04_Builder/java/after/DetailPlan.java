@@ -1,7 +1,7 @@
 package _01_CreationalPattern._01_04_Builder.java.after;
 
 public class DetailPlan {
-
+  
   private int day;
   private String plan;
 
@@ -33,5 +33,4 @@ public class DetailPlan {
       + ", plan=\"" + plan + "\""
       + " }";
   }
-  
 }

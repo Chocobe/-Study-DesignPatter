@@ -7,33 +7,28 @@ public class DefaultTourPlanBuilder implements TourPlanBuilder {
 
   private TourPlan tourPlan;
 
-  public DefaultTourPlanBuilder() {}
-
   @Override
-  public DefaultTourPlanBuilder initTourPlan() {
+  public TourPlanBuilder initTourPlan() {
     tourPlan = new TourPlan();
-
     return this;
   }
 
   private void checkTourPlan() {
-    if (tourPlan == null) initTourPlan();
+    if(tourPlan == null) throw new Error("initTourPlan() 을 먼저 호출해 주세요");
   }
   
-  @Override
-  public TourPlanBuilder title(String title) {
-    checkTourPlan();
-    tourPlan.setTitle(title);
-
-    return this;
-  }
-
   @Override
   public TourPlanBuilder nightsAndDays(int nights, int days) {
     checkTourPlan();
     tourPlan.setNights(nights);
     tourPlan.setDays(days);
-    
+    return this;
+  }
+
+  @Override
+  public TourPlanBuilder title(String title) {
+    checkTourPlan();
+    tourPlan.setTitle(title);
     return this;
   }
 
@@ -41,7 +36,6 @@ public class DefaultTourPlanBuilder implements TourPlanBuilder {
   public TourPlanBuilder startDate(LocalDate startDate) {
     checkTourPlan();
     tourPlan.setStartDate(startDate);
-
     return this;
   }
 
@@ -49,7 +43,6 @@ public class DefaultTourPlanBuilder implements TourPlanBuilder {
   public TourPlanBuilder whereToStay(String whereToStay) {
     checkTourPlan();
     tourPlan.setWhereToStay(whereToStay);
-    
     return this;
   }
 
@@ -57,21 +50,17 @@ public class DefaultTourPlanBuilder implements TourPlanBuilder {
   public TourPlanBuilder addPlan(int day, String plan) {
     checkTourPlan();
     
-    if (tourPlan.getPlans() == null) {
-      tourPlan.setPlans(new ArrayList<DetailPlan>());
-    }
-
+    if(tourPlan.getPlans() == null) tourPlan.setPlans(new ArrayList<>());
+    
     tourPlan.addPlan(day, plan);
     return this;
   }
 
   @Override
   public TourPlan build() {
-    if (tourPlan == null) {
-      throw new NullPointerException("[DefaultTourPlanBuilder] - TourPlan 객체가 null 상태 입니다.");
-    }
-
-    return tourPlan;
+    TourPlan resultTourPlan = tourPlan;
+    tourPlan = null;
+    return resultTourPlan;
   }
   
 }

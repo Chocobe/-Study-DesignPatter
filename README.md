@@ -17,3 +17,5 @@ GoF 의 23가지 Design Pattern 을 정리한 저장소 입니다.
 01-02. [``FactoryMethod`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_01_CreationalPattern/_01_02_FactoryMethod)
 
 01-03. [``AbstractFactory`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_01_CreationalPattern/_01_03_AbstractFactory)
+
+01-04. [``Builder`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_01_CreationalPattern/_01_04_Builder)

@@ -23,18 +23,6 @@ public class TourPlan {
     this.plans = plans;
   }
 
-  @Override
-  public String toString() {
-    return "TourPlan {"
-      + " title=\"" + title + "\""
-      + ", nights=" + nights
-      + ", days=" + days
-      + ", startDate=" + startDate
-      + ", whereToStay=\"" + whereToStay + "\""
-      + ", plans=" + plans
-      + " }";
-  }
-
   // title
   public String getTitle() {
     return title;
@@ -84,7 +72,7 @@ public class TourPlan {
   }
 
   public void addPlan(int day, String plan) {
-    plans.add(new DetailPlan(day, plan));
+    this.plans.add(new DetailPlan(day, plan));
   }
-
+  
 }
