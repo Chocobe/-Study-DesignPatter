@@ -14,6 +14,8 @@
 
 4. [``Builder`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_01_CreationalPattern/_01_04_Builder)
 
+5. [``Prototype`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_01_CreationalPattern/_01_05_Prototype)
+
 
 
 <br/>
