@@ -8,6 +8,8 @@
 
 1. [``Adaptor`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_02_StructuralPattern/_02_01_Adapter)
 
+2. [``Bridge`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_02_StructuralPattern/_02_02_Bridge)
+
 
 
 <br/>
