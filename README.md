@@ -33,3 +33,5 @@ GoF 의 23가지 Design Pattern 을 정리한 저장소 입니다.
 02-01. [``Adaptor`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_02_StructuralPattern/_02_01_Adapter)
 
 02-02. [``Bridge`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_02_StructuralPattern/_02_02_Bridge)
+
+02-03. [``Composite`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_02_StructuralPattern/_02_03_Composite)
