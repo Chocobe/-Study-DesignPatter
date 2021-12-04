@@ -14,6 +14,8 @@
 
 4. [``Decorator`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_02_StructuralPattern/_02_04_Decorator)
 
+5. [``Facade`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_02_StructuralPattern/_02_05_Facade)
+
 
 
 <br/>
