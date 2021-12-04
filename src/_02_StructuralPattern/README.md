@@ -12,6 +12,8 @@
 
 3. [``Composite`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_02_StructuralPattern/_02_03_Composite)
 
+4. [``Decorator`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_02_StructuralPattern/_02_04_Decorator)
+
 
 
 <br/>
