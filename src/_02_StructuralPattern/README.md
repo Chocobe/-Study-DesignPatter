@@ -16,6 +16,8 @@
 
 5. [``Facade`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_02_StructuralPattern/_02_05_Facade)
 
+6. [``FlyWeight`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_02_StructuralPattern/_02_05_FlyWeight)
+
 
 
 <br/>
