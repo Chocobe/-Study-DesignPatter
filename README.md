@@ -41,3 +41,5 @@ GoF 의 23가지 Design Pattern 을 정리한 저장소 입니다.
 02-05. [``Facade`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_02_StructuralPattern/_02_05_Facade)
 
 02-06. [``FlyWeight`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_02_StructuralPattern/_02_05_FlyWeight)
+
+02-07. [``Proxy`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_02_StructuralPattern/_02_07_Proxy)

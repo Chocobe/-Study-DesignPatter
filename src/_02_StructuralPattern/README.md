@@ -18,6 +18,8 @@
 
 6. [``FlyWeight`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_02_StructuralPattern/_02_05_FlyWeight)
 
+7. [``Proxy`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_02_StructuralPattern/_02_07_Proxy)
+
 
 
 <br/>
