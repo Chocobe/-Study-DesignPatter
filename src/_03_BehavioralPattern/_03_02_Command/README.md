@@ -252,4 +252,4 @@ button.undo();
 
 [ [🚀 최상단으로 이동](https://github.com/Chocobe/-Study-DesignPatter) ]
 
-[ [🐫 ``BehavioralPattern`` 으로 이동]() ]
+[ [🐫 ``BehavioralPattern`` 으로 이동](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_03_BehavioralPattern) ]

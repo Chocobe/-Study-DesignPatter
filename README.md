@@ -43,3 +43,15 @@ GoF 의 23가지 Design Pattern 을 정리한 저장소 입니다.
 02-06. [``FlyWeight`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_02_StructuralPattern/_02_05_FlyWeight)
 
 02-07. [``Proxy`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_02_StructuralPattern/_02_07_Proxy)
+
+
+
+<br/>
+
+
+
+## 03. [``BehavioralPattern``: 행동 관련 디자인 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_03_BehavioralPattern)
+
+03-01. [``Chain of Responsibilities`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_03_BehavioralPattern/_03_01_ChainOfResponsibilities)
+
+03-02. [``Command`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_03_BehavioralPattern/_03_02_Command)
