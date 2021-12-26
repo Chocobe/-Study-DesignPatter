@@ -12,6 +12,8 @@
 
 3. [``Interpreter`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_03_BehavioralPattern/_03_03_Interpreter)
 
+4. [``Iterator`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_03_BehavioralPattern/_03_04_Iterator)
+
 
 
 <br/>
