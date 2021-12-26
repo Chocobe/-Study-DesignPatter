@@ -12,7 +12,7 @@ GoF 의 23가지 Design Pattern 을 정리한 저장소 입니다.
 
 ## 01. [``Creational Pattern`` : 객체 생성 관련 디자인 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_01_CreationalPattern)
 
-01-01. [``SingleTone`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_01_CreationalPattern/_01_01_SingleTon)
+01-01. [``SingleTon`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_01_CreationalPattern/_01_01_SingleTon)
 
 01-02. [``FactoryMethod`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_01_CreationalPattern/_01_02_FactoryMethod)
 
