@@ -59,3 +59,5 @@ GoF 의 23가지 Design Pattern 을 정리한 저장소 입니다.
 03-03. [``Interpreter`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_03_BehavioralPattern/_03_03_Interpreter)
 
 03-04. [``Iterator`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_03_BehavioralPattern/_03_04_Iterator)
+
+03-05. [``Mediator`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_03_BehavioralPattern/_03_05_Mediator)

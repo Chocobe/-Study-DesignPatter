@@ -14,6 +14,8 @@
 
 4. [``Iterator`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_03_BehavioralPattern/_03_04_Iterator)
 
+5. [``Mediator`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_03_BehavioralPattern/_03_05_Mediator)
+
 
 
 <br/>
