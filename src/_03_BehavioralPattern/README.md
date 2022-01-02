@@ -16,6 +16,8 @@
 
 5. [``Mediator`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_03_BehavioralPattern/_03_05_Mediator)
 
+6. [``Memento`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_03_BehavioralPattern/_03_06_Memento)
+
 
 
 <br/>
