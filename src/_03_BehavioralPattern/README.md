@@ -18,6 +18,8 @@
 
 6. [``Memento`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_03_BehavioralPattern/_03_06_Memento)
 
+7. [``Observer`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_03_BehavioralPattern/_03_07_Observer)
+
 
 
 <br/>
