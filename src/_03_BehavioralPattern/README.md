@@ -24,6 +24,8 @@
 
 9. [``Strategy`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_03_BehavioralPattern/_03_09_Stretage)
 
+10. [``Template Method`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_03_BehavioralPattern/_03_10_TemplateMethod)
+
 
 
 <br/>

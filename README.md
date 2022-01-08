@@ -69,3 +69,5 @@ GoF 의 23가지 Design Pattern 을 정리한 저장소 입니다.
 03-08. [``State`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_03_BehavioralPattern/_03_08_State)
 
 03-09. [``Strategy`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_03_BehavioralPattern/_03_09_Stretage)
+
+03-10. [``Template Method`` 패턴](https://github.com/Chocobe/-Study-DesignPatter/tree/master/src/_03_BehavioralPattern/_03_10_TemplateMethod)
