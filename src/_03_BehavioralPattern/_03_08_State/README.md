@@ -421,6 +421,56 @@ console.log(onlineCourse.getReviews());
 
 
 
+<br /><hr /><br />
+
+
+
+# ``State`` 패턴의 순환구조에 대한 고찰
+
+순환구조는 프로그램의 않좋은 요소 또는 문제를 일으킬 수 있는 요소로 알려져 있습니다.
+
+이는 ``Code Smell`` 로도 불리며 ``Javascript`` 의 모듈 번틀러에서 에러가 발생할 수도 있는 구조 입니다.
+
+<br />
+
+위의 예제에서 ``State`` 구현 클래스는 ``Context 객체`` 를 참조하도록 되어 있으며, 이로인해 순환구조가 되었습니다.
+
+이를 해소하기 위해, ``State`` 의 각 메서드에 ``Context`` 인자를 추가하면, 해결할 수 있습니다.
+
+```javascript
+/**
+ * @typedef { import("./OnlineCourse").default } OnlineCourse
+ * @typedef { import("./Student").default } Student
+ */
+
+export default class State {
+  /**
+   * @param { Student } student
+   * @param { OnlineCourse } onlineCourse
+   */
+  addStudent(student, onlineCourse);
+
+  /**
+   * @param { Student } student
+   * @param { string } review
+   * @param { OnlineCourse } onlineCourse
+   */
+  addReview(student, review, onlineCourse);
+}
+```
+
+<br />
+
+위와 같이 각 메서드의 인자로 ``OnlineCourse``를 넘겨주면, ``State 구현 class`` 가 더이상 ``OnlineCourse 객체`` 를 참조하지 않게 됩니다.
+
+<br />
+
+지금까지 순환구조를 해소하기 위한 방법을 정리하였습니다.
+
+순환구조는 분명 문제가 발생할 수 있는 코드지만, 순환하는 두 객체가 ``긴밀한 관계`` 라면, 순환구조를 사용하는 것도 좋은 방법이 될 수 있다고 합니다.
+
+
+
 <br/>
 
 <hr/><br/>
